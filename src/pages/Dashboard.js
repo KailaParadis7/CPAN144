@@ -67,6 +67,7 @@ const Dashboard = () => {
   }, []);
 
   return (
+<<<<<<< HEAD
     <div className="w-[1280px] h-[1214px] bg-white flex-col justify-start items-start inline-flex">
       <Header />
       <div className="self-stretch h-[1149px] px-40 py-5 justify-center items-start inline-flex">
@@ -95,6 +96,32 @@ const Dashboard = () => {
                     <div className="h-6 relative">
                       <div className="w-5 h-5 left-0 top-0 absolute" />
                       <i className="fas fa-search text-[#111616] text-lg" />
+=======
+    <div className="w-full max-w-[1280px] h-auto bg-white flex flex-col items-center mx-auto">
+      <div className="self-stretch h-[1214px] bg-white flex-col justify-start items-start flex">
+        <div className="self-stretch h-[1214px] flex-col justify-start items-start flex">
+            <Header />
+          <div className="self-stretch h-[1149px] px-40 py-5 justify-center items-start inline-flex">
+            <div className="w-[960px] py-5 flex-col justify-start items-start inline-flex">
+              <div className="self-stretch h-[76px] px-4 pt-6 pb-3 flex-col justify-start items-center flex">
+                <div className="self-stretch text-center text-[#111616] text-[32px] font-bold font-['Plus Jakarta Sans'] leading-10">You are in Toronto, ON</div>
+              </div>
+              <div className="self-stretch h-[72px] px-4 py-3 flex-col justify-start items-start flex">
+                <div className="self-stretch h-12 flex-col justify-start items-start flex">
+                  <div className="self-stretch grow shrink basis-0 rounded-xl justify-start items-start inline-flex">
+                    <div className="self-stretch pl-4 bg-[#eff2f4] rounded-tl-xl rounded-bl-xl justify-center items-center flex">
+                      <div className="h-6 relative">
+                        <div className="w-5 h-5 left-0 top-0 absolute" />
+                      </div>
+                    </div>
+                    <div className="grow shrink basis-0 self-stretch pl-2 pr-4 py-2 bg-[#eff2f4] rounded-tr-xl rounded-br-xl justify-start items-center flex">
+                         <input type="text" placeholder="Search for another location" className="w-full h-full bg-[#eff2f4] border-none outline-none text-[#111616] text-sm font-normal font-['Plus Jakarta Sans'] leading-[21px]"/>
+                            <button><div className="h-6 relative">
+                                <div className="w-5 h-5 left-0 top-0 absolute" />
+                                <i className="fas fa-search text-[#111616] text-lg" />
+                                </div></button>
+                      
+>>>>>>> 93170bd0b58e035ac60e9e10e8992f8b0f368b56
                     </div>
                   </button>
                 </div>
