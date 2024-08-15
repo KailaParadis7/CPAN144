@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
@@ -8,7 +9,7 @@ export default function Footer() {
                   <div className="self-stretch justify-between items-center inline-flex">
                     <div className="w-40 flex-col justify-start items-center inline-flex">
                       <div className="self-stretch text-center text-[#637c87] text-base font-normal font-['Plus Jakarta Sans'] leading-normal">
-                        Terms of Service
+                        <Link to="/TermsOfService"> Terms of Service</Link>
                       </div>
                     </div>
                     <div className="w-40 flex-col justify-start items-center inline-flex">
